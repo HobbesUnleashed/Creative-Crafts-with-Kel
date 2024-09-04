@@ -271,3 +271,146 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
+
+/* Media query for tablets and larger */
+@media screen and (min-width: 768px) {
+
+    #logo-image {
+        background: url(../images/logo-tab.webp) no-repeat top center/cover;
+        height: 100px;
+        width: 100%;
+    }
+    
+    nav > ul {
+        padding-left: 0;
+    }
+
+    #nav-primary {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        position: static;
+        width: 100%;
+        border-bottom: 1px solid #767e85;
+        background-color: transparent;
+    }
+
+    #nav-primary > li {
+        text-align: center;
+    }
+
+    #nav-primary > li a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .nav-block {
+        padding-top: 1em;
+        margin: auto;
+    }
+
+    main {
+        margin-top: 175px;
+    }
+
+    /* 4 divs section of homepage */
+    #top-div, #bottom-div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        column-gap: 5%;
+    }
+
+    .four-divs {
+        width: 250px;
+    }
+
+    #top-div {
+        justify-content: flex-start;
+        column-gap: 12%;
+    }
+
+    #bottom-div {
+        justify-content: flex-end;
+        column-gap: 6%;
+    }
+}
+
+
+/* Media query for laptops and larger */
+@media screen and (min-width: 992px) {
+
+    body {
+        width: 80%;
+    }
+    
+    header {
+        width: 80%;
+    }
+
+    #logo-image {
+        background: url(../images/logo-lap.webp) no-repeat top center/cover;
+    }
+
+    #story {
+        flex-direction: row;
+    }
+
+    #story-head {
+        display: block;
+    }
+
+    #story-blurb {
+        width: 70%;
+    }
+
+    #cave {
+        flex-direction: row;
+        align-items: center;
+    }
+    #cave-map {
+        height: 300px;
+    }
+
+    /* 4 divs section of homepage */
+    #top-div, #bottom-div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #top-div {
+        column-gap: 15%;
+    }
+
+    #bottom-div {
+        column-gap: 8%;
+    }
+}
+
+
+/* Media query for desktops and larger */
+@media screen and (min-width: 1200px) {
+    #logo {
+        background: url(../images/logo-desk.webp) no-repeat top center/cover;
+    }
+
+    #top-div, #bottom-div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #top-div {
+        column-gap: 35%;
+    }
+
+    #bottom-div {
+        column-gap: 20%;
+    }
+}
