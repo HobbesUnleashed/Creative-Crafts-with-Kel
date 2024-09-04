@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+
+/* Wildcards */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    width: 95%;
+    margin: auto;    
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #767e85;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Generic project styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ol, ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    padding-bottom: 1em;
+}
+
+/* Header section styling */
+header {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 2px 0;
+    z-index: 99;
+    background-color: #fff;
+    width: 95%;
+}
+
+
+#logo-image {
+    background: url(../images/logo-smob.webp) no-repeat top center/cover;
+    height: 100px;
+    width: 100%;
+}
+
+#logo-text {
+    color:#fcd0bb;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background-color: #767e85;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    background-color: #fcd0bb;
+    border-bottom: #767e85;
+    margin: auto;
+}
+
+#nav-toggle:checked + .nav-toggle-label + #nav-primary {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    position: fixed;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    background-color: #fcd0bb;
+    border-bottom: 1px solid #767e85;
+    color: #767e85;
+}
+
+#nav-primary {
+    margin-top: 17px;
+    display: none;
+}
+
+#nav-primary > li {
+    list-style-type: none;
+}
+
+.top {
+    padding-top: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #767e85;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    /* Push the footer to the bottom of the visible page */
+    flex: 1 0 auto;
+    margin-top: 157px;
+    padding-top: .5vh;
+    width: 98.6%;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fcd0bb;
+    text-align: center;
+    vertical-align: middle;
+    width: 98.6%;
+}
+
+/* Set the height of the socials div */
+#socials {
+    height: 40px;
+}
+
+/* Style the components of the undefined list */
+#social-networks {
+    padding: 5px 0;
+    list-style-type: none;
+    font-size: 150%;
+    /* Place all items on one row, space them evenly */
+    display: flex;
+    justify-content: space-evenly;
+}
