@@ -34,6 +34,42 @@ li {
     padding-bottom: 1em;
 }
 
+h2 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: underline solid;
+    text-decoration-skip-ink: none;
+    padding-top: 1rem;
+}
+
+h3 {
+    font-family: "Satisfy", cursive;;
+    color:#fcd0bb;
+    font-size: 1.5rem;
+}
+
+.melon-mambo {
+    text-decoration-color: #e94d88;
+}
+
+.pumpkin-pie {
+    text-decoration-color: #f49733;
+}
+
+.granny-apple-green {
+    text-decoration-color: #a3c149;
+}
+
+.azure-afternoon {
+    text-decoration-color: #26a0d6;
+}
+
+/* Utility classes */
+.hide {
+    display: none;
+}
+
 /* Header section styling */
 header {
     display: block;
@@ -138,4 +174,100 @@ footer {
     /* Place all items on one row, space them evenly */
     display: flex;
     justify-content: space-evenly;
+}
+
+/* Homepage main elements */
+/* Section styling for My story */
+#story {
+    /* Make everything appear on its own line */
+    display: flex;
+    flex-direction: column;
+    /*justify text */
+    text-align: justify;
+}
+
+/* Image for My Story */
+#story-image-bg {
+    background: url(../images/Kel.png) no-repeat top center/cover;
+    height: 150px;
+    width: 150px;
+    max-width: 300px;
+    max-width: 300px;
+    margin: auto;
+}
+
+/* Section styling for the newsletter signup */
+#newsletter-signup {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10px;
+    background: url(../images/Backing-white.png) no-repeat top center/cover #6ea39f;
+    margin: auto;
+}
+
+.form-inputs {
+    background: transparent;
+    width: 80%;
+    margin-left: 10%;
+    height: 25px;
+    border: 1px solid #767e85;
+    color: #fff;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.form-label {
+    color: #fff;
+    padding: 5px 5px;
+}
+
+.submit-btn {
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* Section styling for the 4-way options */
+#four-way-section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    vertical-align: middle;
+} 
+
+#four-way-div {
+    text-align: center;
+}
+
+.four-divs {
+    text-decoration: underline solid #fcd0bb;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 1.5px;
+}
+
+.hidden-lap {
+    color: #fff;
+}
+
+/* The Cave section styles */
+#cave {
+    display: flex;
+    flex-direction: column;
+}
+
+#cave-map {
+    width: 100%;
+    margin: auto;
+}
+
+/* Crafty crew page */
+/* Team link button formatting */
+.team-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
