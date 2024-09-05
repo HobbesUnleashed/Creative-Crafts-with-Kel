@@ -92,11 +92,16 @@ header {
     width: 95%;
 }
 
+.logo-link {
+    justify-content: center;
+    display:flex;
+}
 
 #logo-image {
-    background: url(../images/logo-smob.webp) no-repeat top center/cover;
-    height: 100px;
-    width: 100%;
+    background: url(../images/fl255.svg) no-repeat top center/cover;
+    height: 70px;
+    width: 300px;
+    max-width: 1200px;
 }
 
 #logo-text {
@@ -156,7 +161,7 @@ main {
     flex-direction: column;
     /* Push the footer to the bottom of the visible page */
     flex: 1 0 auto;
-    margin-top: 157px;
+    margin-top: 127px;
     padding-top: .5vh;
     width: 98.6%;
 }
@@ -198,11 +203,12 @@ footer {
 
 /* Image for My Story */
 #story-image-bg {
-    background: url(../images/Kel.png) no-repeat top center/cover;
+    background: url(../images/Kel.webp) no-repeat top center/cover;
     height: 150px;
     width: 150px;
-    max-width: 300px;
-    max-width: 300px;
+    max-width: 450px;
+    max-width: 450px;
+    border-radius: 50%;
     margin: auto;
 }
 
@@ -315,9 +321,9 @@ footer {
 @media screen and (min-width: 768px) {
 
     #logo-image {
-        background: url(../images/logo-tab.webp) no-repeat top center/cover;
+        background: url(../images/fl255.svg) no-repeat top center/cover;
         height: 100px;
-        width: 100%;
+        width: 400px;
     }
     
     nav > ul {
@@ -396,12 +402,13 @@ footer {
         width: 80%;
     }
 
-    #logo-image {
-        background: url(../images/logo-lap.webp) no-repeat top center/cover;
-    }
-
     #story {
         flex-direction: row;
+    }
+
+    #story-image-bg {
+        width: 250px;
+        height: 250px;
     }
 
     #story-head {
@@ -444,9 +451,6 @@ footer {
 
 /* Media query for desktops and larger */
 @media screen and (min-width: 1200px) {
-    #logo {
-        background: url(../images/logo-desk.webp) no-repeat top center/cover;
-    }
 
     #top-div, #bottom-div {
         display: flex;
