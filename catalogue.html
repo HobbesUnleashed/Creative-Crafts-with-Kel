@@ -8,7 +8,7 @@
      <meta name="keywords" content="">
      <!-- Link to stylesheet -->
      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Gallery</title>
+    <title>Catalogues</title>
 </head>
 <body>
     <!-- Header element and contents -->
@@ -25,63 +25,49 @@
             <ul id="nav-primary">
                 <li class="top nav-block"><a href="index.html" title="Home">Home</a></li>
                 <li class="nav-block"><a href="https://hobbesunleashed.github.io/creative-crafts-with-kel/#cave" title="Classes">Classes</a></li>
-                <li class="nav-block"><a href="gallery.html" class="active">Gallery</a></li>
-                <li class="nav-block"><a href="catalogue.html" title="Request a catalogue">Request a catalogue</a></li>
+                <li class="nav-block"><a href="gallery.html" title="Gallery">Gallery</a></li>
+                <li class="nav-block"><a href="catalogue.html" class="active">Request a catalogue</a></li>
                 <!--<li class="nav-block"><a href="blog.html" title="Read my blog">Blog</a></li>      To be added at a later date -->
             </ul>
         </nav>
     </header>
     <!-- The main body of the webpage -->
     <main>
+        <br>
         <hr style="border: 1px solid #e94d88">
-        <h2 class="melon-mambo">Onstage expo 2024</h2>
-        <br>
-        <section class="gallery">
-            <div id="onstage">
-                <!--<img src="assets/images/craft-award.webp" alt="A">
-                <img src="assets/images/craft-pair.webp" alt="B">
-                <img src="assets/images/crafty-pair.webp" alt="C">-->
-                <img src="assets/images/craft-dance.webp" alt="D">
-                <img src="assets/images/craft-papers.webp" alt="E">
-                <!--<img src="assets/images/craft-steps.webp" alt="F">-->
-                <img src="assets/images/craft-wall.webp" alt="G">
-                <img src="assets/images/craft-card.webp" alt="H">
-                <img src="assets/images/craft-excitement.webp" alt="I">
-                <img src="assets/images/kel-podium.webp" alt="J">
-                <img src="assets/images/kel-steps.webp" alt="K">
-                <img src="assets/images/craft-team-indoors.webp" alt="L">
-                <img src="assets/images/craft-team-outdoors.webp" alt="M">
-                <!--<img src="assets/images/craft-outdoors-sitting.webp" alt="N"> -->
-            </div>
-        </section>
-        <br>
-        <hr style="border: 1px solid #f49733">
-        <h2 class="pumpkin-pie">Crafting workshops</h2>
-        <br>
-        <section class="gallery">
-            <div id="workshops">
-                <img src="assets/images/Craft day 1.webp" alt="A">
-                <img src="assets/images/Craft day 2.webp" alt="B">
-                <img src="assets/images/Craft day 3.webp" alt="C">
-                <img src="assets/images/Craft day 4.webp" alt="D">
-            </div>
+        <section id="catalogue">
+            <h2 class="melon-mambo">Request a catalogue</h2>
+            <br>
+            <!-- Form to signup to the newsletter -->
+            <form action="https://formdump.codeinstitute.net" method="post" id="catalogue-signup">
+                <br>
+                <label class="form-label" for="first-name">First Name:</label>
+                <input type="text" name="cat-first-name" id="cat-first-name" class="form-inputs" required>
+                <br>
+                <label class="form-label" for="last-name">Last Name:</label>
+                <input type="text" name="cat-last-name" id="cat-last-name" class="form-inputs" required>
+                <br>
+                <label class="form-label" for="address1">Address - Line 1:</label>
+                <input type="text"  name="cat-address1" id="cat-address1" class="form-inputs" required>
+                <br>
+                <label class="form-label" for="address2">Address - Line 2:</label>
+                <input type="text"  name="cat-address2" id="cat-address2" class="form-inputs" required>
+                <br>
+                <label class="form-label" for="county">County:</label>
+                <input type="text"  name="cat-county" id="cat-county" class="form-inputs" required>
+                <br>
+                <label class="form-label" for="postcode">Postcode:</label>
+                <input type="text"  name="cat-postcode" id="cat-postcode" class="form-inputs" required>
+                <br>
+                <button type="submit" class="submit-btn">Submit</button>
+                <br>
+            </form>
+            <br>
+            <hr style="border: 1px solid #f49733">
+            <br>
         </section>
         <br>
         <hr style="border: 1px solid #a3c149">
-        <h2 class="granny-apple-green">My cards</h2>
-        <br>
-        <section class="gallery">
-            <div id="cards">
-                <img src="assets/images/card1.webp" alt="A">
-                <img src="assets/images/card2.webp" alt="B">
-                <img src="assets/images/card3.webp" alt="C">
-                <img src="assets/images/card4.webp" alt="D">
-                <img src="assets/images/card5.webp" alt="E">
-                <img src="assets/images/card6.webp" alt="F">
-            </div>
-        </section>
-        <br>
-        <hr style="border: 1px solid #26a0d6">
         <br>
     </main>
     <!-- Footer element and contents -->

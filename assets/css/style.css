@@ -217,12 +217,11 @@ footer {
 }
 
 .form-inputs {
-    background: transparent;
+    background: solid;
     width: 80%;
     margin-left: 10%;
     height: 25px;
-    border: 1px solid #767e85;
-    color: #fff;
+    border: 2px solid #767e85;
     border-radius: 2px;
     padding: 0 5px;
 }
@@ -290,6 +289,16 @@ footer {
 
 #onstage, #workshops, #cards {
     line-height: 0;
+}
+
+/* Catalogue page */
+#catalogue-signup {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10px;
+    background: url(../images/Backing-white.png) no-repeat top center/cover #7e5fa8; /* Gorgeous grape */
+    margin: auto;
 }
 
 /* Media query for larger or landscape mobiles */
