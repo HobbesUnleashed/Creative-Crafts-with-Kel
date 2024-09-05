@@ -65,6 +65,16 @@ h3 {
     text-decoration-color: #26a0d6;
 }
 
+.cost {
+    color: #0d5893; /* Blueberry bushel */
+    text-decoration-color: #0d5893;
+}
+
+.savings {
+    color: #00825b; /* Shaded spruce */
+    text-decoration-color: 00825b;
+}
+
 /* Utility classes */
 .hide {
     display: none;
@@ -414,3 +424,67 @@ footer {
         column-gap: 20%;
     }
 }
+
+/* Media query for 4k 
+@media screen and (min-width: 2000px) {
+    body {
+        font-size: 200%;
+    }
+
+    main {
+        margin-top: 265px;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    h3 {
+        font-size: 120%;
+    }
+    
+    #top-div, #bottom-div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        font-size: 120%;
+    }
+
+    #top-div {
+        column-gap: 30%;
+    }
+
+    #bottom-div {
+        column-gap: 12%;
+    }
+
+    .four-divs {
+        width: 500px;
+    }
+
+    #socials {
+        height: 60px;
+    }
+    
+    #copyright {
+        height: 60px;
+        align-items: center;
+    }
+
+    .submit-btn {
+        font-size: 120%;
+        margin: 10px auto;
+        padding: 20px 40px;
+        border-radius: 2px;
+        background-color: #454b1b;
+        color: #fff;
+    }
+
+    .form-inputs {
+        height: 60px;
+        font-size: 120%;
+        margin-left: 20%;
+        border: 2px solid #767e85;
+        padding: 0 15px;
+    }
+} */
