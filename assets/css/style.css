@@ -282,6 +282,25 @@ footer {
     align-items: center;
 }
 
+/* Gallery page */
+#onstage img, #workshops img, #cards img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#onstage, #workshops, #cards {
+    line-height: 0;
+}
+
+/* Media query for larger or landscape mobiles */
+@media screen and (min-width: 576px) {
+    
+    #onstage, #workshops, #cards {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+}
 
 /* Media query for tablets and larger */
 @media screen and (min-width: 768px) {
@@ -349,6 +368,11 @@ footer {
         justify-content: flex-end;
         column-gap: 6%;
     }
+
+    #onstage, #workshops, #cards {
+        column-count: 3;
+    }
+
 }
 
 
@@ -401,6 +425,11 @@ footer {
     #bottom-div {
         column-gap: 8%;
     }
+
+    #onstage, #workshops, #cards {
+        column-count: 4;
+    }
+
 }
 
 
@@ -423,6 +452,7 @@ footer {
     #bottom-div {
         column-gap: 20%;
     }
+
 }
 
 /* Media query for 4k 
