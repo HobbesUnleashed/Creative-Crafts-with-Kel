@@ -11,102 +11,102 @@
 /* Brights and subtles collections */
 .red {
     color: #ed1a3b;
-    text-decoration: underline;
+    text-decoration: underline #ed1a3b;
     text-decoration-skip-ink: none;
 }
 .pink {
     color: #e94d88;
-    text-decoration: underline;
+    text-decoration: underline #e94d88;
     text-decoration-skip-ink: none;
 }
 .flamingo {
     color: #f69997;
-    text-decoration: underline;
+    text-decoration: underline #f69997;
     text-decoration-skip-ink: none;
 }
 .orange {
     color: #f49733;
-    text-decoration: underline;
+    text-decoration: underline #f49733;
     text-decoration-skip-ink: none;
 }
 .yellow {
     color: #ffda69;
-    text-decoration: underline;
+    text-decoration: underline #ffda69;
     text-decoration-skip-ink: none;
 }
 .lime {
     color: #dde569;
-    text-decoration: underline;
+    text-decoration: underline #dde569;
     text-decoration-skip-ink: none;
 }
 .green {
     color: #a3c149;
-    text-decoration: underline;
+    text-decoration: underline #a3c149;
     text-decoration-skip-ink: none;
 }
 .teal {
     color: #82cdbe;
-    text-decoration: underline;
+    text-decoration: underline #82cdbe;
     text-decoration-skip-ink: none;
 }
 .blue {
     color: #26a0d6;
-    text-decoration: underline;
+    text-decoration: underline #26a0d6;
     text-decoration-skip-ink: none;
 }
 .purple {
     color: #b74984;
-    text-decoration: underline;
+    text-decoration: underline #b74984;
     text-decoration-skip-ink: none;
 }
 .lemon {
     color: #fff8a1;
-    text-decoration: underline;
+    text-decoration: underline #fff8a1;
     text-decoration-skip-ink: none;
 }
 .seafoam {
     color: #e5f0d3;
-    text-decoration: underline;
+    text-decoration: underline #e5f0d3;
     text-decoration-skip-ink: none;
 }
 .lagoon {
     color: #6ea39f;
-    text-decoration: underline;
+    text-decoration: underline #6ea39f;
     text-decoration-skip-ink: none;
 }
 .party {
     color: #a9dcd6;
-    text-decoration: underline;
+    text-decoration: underline #a9dcd6;
     text-decoration-skip-ink: none;
 }
 .balmy {
     color: #a8d9ea;
-    text-decoration: underline;
+    text-decoration: underline #a8d9ea;
     text-decoration-skip-ink: none;
 }
 .heather {
     color: #a995c7;
-    text-decoration: underline;
+    text-decoration: underline #a995c7;
     text-decoration-skip-ink: none;
 }
 .freesia {
     color: #e5b7d6;
-    text-decoration: underline;
+    text-decoration: underline #e5b7d6;
     text-decoration-skip-ink: none;
 }
 .bath {
     color: #fad5e5;
-    text-decoration: underline;
+    text-decoration: underline #fad5e5;
     text-decoration-skip-ink: none;
 }
 .petal {
     color: #fcd0bb;
-    text-decoration: underline;
+    text-decoration: underline #fcd0bb;
     text-decoration-skip-ink: none;
 }
 .coral {
     color: #f37965;
-    text-decoration: underline;
+    text-decoration: underline #f37965;
     text-decoration-skip-ink: none;
 }
 /* Border palette - Brights */
