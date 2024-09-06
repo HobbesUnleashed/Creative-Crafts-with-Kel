@@ -323,7 +323,7 @@ figcaption {
     width: 300px;
     text-align: center;
     margin-bottom: 20px;
-    text-decoration: underline #f49733;
+    text-decoration: underline #a3c149;
     text-decoration-skip-ink: none;
 }
 
@@ -408,8 +408,16 @@ figcaption {
         column-count: 3;
     }
 
-    #captioned {
+    /* Catalogues page */
+    #top-row {
+        display: flex;
         flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bottom-row {
+        display: flex;
+        justify-content: center;
     }
 
 }
