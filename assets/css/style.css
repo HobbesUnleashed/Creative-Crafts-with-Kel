@@ -7,6 +7,69 @@
     box-sizing: border-box;
 }
 
+/* Colors and variations */
+
+.yellow {
+    color: #ffda69;
+    text-decoration: underline;
+}
+.lime {
+    color: #dde569;
+    text-decoration: underline;
+}
+.green {
+    color: #a3c149;
+    text-decoration: underline;
+}
+.teal {
+    color: #82cdbe;
+    text-decoration: underline;
+}
+.blue {
+    color: #26a0d6;
+    text-decoration: underline;
+}
+.purple {
+    color: #b74984;
+    text-decoration: underline;
+}
+.lemon {
+    color: #fff8a1;
+    text-decoration: underline;
+}
+.seafoam {
+    color: #e5f0d3;
+    text-decoration: underline;
+}
+.lagoon {
+    color: #6ea39f;
+    text-decoration: underline;
+}
+.party {
+    color: #a9dcd6;
+    text-decoration: underline;
+}
+.balmy {
+    color: #a8d9ea;
+    text-decoration: underline;
+}
+.heather {
+    color: #a995c7;
+    text-decoration: underline;
+}
+.freesia {
+    color: #e5b7d6;
+    text-decoration: underline;
+}
+.bath {
+    color: #fad5e5;
+    text-decoration: underline;
+}
+.petal {
+    color: #fcd0bb;
+    text-decoration: underline;
+}
+
 /* Body */
 body {
     width: 95%;
@@ -89,7 +152,7 @@ header {
     padding: 2px 0;
     z-index: 99;
     background-color: #fff;
-    width: 95%;
+    width: 98.6%;
 }
 
 .logo-link {
@@ -110,11 +173,12 @@ header {
     font-weight: 700;
     text-align: center;
     background-color: #767e85;
+    width: 98.6%;
 }
 
 nav {
     position: absolute;
-    width: 100%;
+    width: 98.6%;
     background-color: #fcd0bb;
     border-bottom: #767e85;
     margin: auto;
@@ -333,6 +397,12 @@ figcaption {
     margin-bottom: 20px;
     text-decoration: underline #a3c149;
     text-decoration-skip-ink: none;
+}
+
+/* Thank you page */
+#thanks {
+    text-align: center;
+    background-color: #767e85;
 }
 
 /* Media query for larger or landscape mobiles */
