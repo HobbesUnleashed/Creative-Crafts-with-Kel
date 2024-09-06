@@ -7,67 +7,138 @@
     box-sizing: border-box;
 }
 
-/* Colors and variations */
-
+/* Colors palette */
+/* Brights and subtles collections */
+.red {
+    color: #ed1a3b;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+.pink {
+    color: #e94d88;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+.flamingo {
+    color: #f69997;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+.orange {
+    color: #f49733;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
 .yellow {
     color: #ffda69;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .lime {
     color: #dde569;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .green {
     color: #a3c149;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .teal {
     color: #82cdbe;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .blue {
     color: #26a0d6;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .purple {
     color: #b74984;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .lemon {
     color: #fff8a1;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .seafoam {
     color: #e5f0d3;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .lagoon {
     color: #6ea39f;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .party {
     color: #a9dcd6;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .balmy {
     color: #a8d9ea;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .heather {
     color: #a995c7;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .freesia {
     color: #e5b7d6;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .bath {
     color: #fad5e5;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 .petal {
     color: #fcd0bb;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+.coral {
+    color: #f37965;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+/* Border palette - Brights */
+.border-red {
+    border: 1px solid #ED1A3B;
+}
+.border-pink {
+    border: 1px solid #E94D88;
+}
+.border-flamingo {
+    border: 1px solid #F69997;
+}
+.border-orange {
+    border: 1px solid #F49733;
+}
+.border-yellow{
+    border: 1px solid #FFDA69;
+}
+.border-lime{
+    border: 1px solid #DDE569;
+}
+.border-green{
+    border: 1px solid #A3C149;
+}
+.border-teal{
+    border: 1px solid #82CDBE;
+}
+.border-blue{
+    border: 1px solid #26A0D6;
+}
+.border-purple{
+    border: 1px solid #B74984;
 }
 
 /* Body */
