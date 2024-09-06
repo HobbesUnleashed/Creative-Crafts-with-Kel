@@ -59,6 +59,23 @@
                 <label class="form-label" for="postcode">Postcode:</label>
                 <input type="text"  name="cat-postcode" id="cat-postcode" class="form-inputs" required>
                 <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="annual">Annual</label>
+                        <input type="radio" name="cat-choice" id="annual" value="annual" required checked>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="seasonal">Seasonal</label>
+                        <input type="radio" name="cat-choice" id="seasonal" value="seasonal" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="cat-choice" id="both" value="both" required>
+                    </div>
+                </div>
+                <br>
                 <button type="submit" class="submit-btn">Submit</button>
                 <br>
             </form>
@@ -78,17 +95,17 @@
             <a href="https://www.stampinup.uk/catalogs/digital-catalogues" alt="View the catalogues digitally" target="_blank">
                 <div id="captioned">
                     <div id="top-row">
-                        <figure class="figures" id="annual">
+                        <figure class="figures">
                             <img src="assets/images/catalogue.webp" alt="Annual Catalogue online">
                             <figcaption>2024/25 Annual Catalogue</figcaption>
                         </figure>
-                        <figure class="figures" id="seasonal">
+                        <figure class="figures">
                             <img src="assets/images/Seasonal catalogue.webp" alt="Seasonal Catalogue online">
                             <figcaption>2024 Autumn Catalogue</figcaption>
                         </figure>
                     </div>
                     <div id="bottom-row">
-                        <figure class="figures" id="scrapbooks">
+                        <figure class="figures">
                             <img src="assets/images/scrapbook catalogue.webp" alt="Scrapbook Btochure online">
                             <figcaption>Sept '24 Scrapbook Brochure</figcaption>
                         </figure>

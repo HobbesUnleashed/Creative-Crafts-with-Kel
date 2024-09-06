@@ -307,6 +307,14 @@ footer {
     margin: auto;
 }
 
+.radio-buttons {
+    display: block;
+    width: 80%;
+    margin:auto;
+    color: #fff;
+    text-align: center;
+}
+
 #captioned {
     display: flex;
     flex-direction: column;
@@ -409,6 +417,12 @@ figcaption {
     }
 
     /* Catalogues page */
+    .radio-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
     #top-row {
         display: flex;
         flex-direction: row;
