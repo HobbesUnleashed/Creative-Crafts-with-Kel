@@ -141,6 +141,11 @@
     border: 1px solid #B74984;
 }
 
+/* Default text color */
+.grey {
+    color: #767e85;
+}
+
 /* Body */
 body {
     width: 95%;
