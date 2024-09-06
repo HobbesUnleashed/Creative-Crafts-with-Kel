@@ -474,10 +474,30 @@ figcaption {
         column-gap: 8%;
     }
 
+    /* Gallery page */
     #onstage, #workshops, #cards {
         column-count: 4;
     }
 
+    /* Catalogue page */
+    #captioned {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .figures {
+        width: 33.33%;
+    }
+
+    .figures img {
+        width: 350px;
+        height: 350px;
+    }
+
+    #bottom-row {
+        justify-content: left;
+    }
 }
 
 
