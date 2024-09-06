@@ -184,10 +184,10 @@ h2 {
 
 h3 {
     font-family: "Satisfy", cursive;;
-    color:#fcd0bb;
+    text-decoration: none;
     font-size: 1.5rem;
 }
-
+/*
 .melon-mambo {
     text-decoration-color: #e94d88;
 }
@@ -205,15 +205,15 @@ h3 {
 }
 
 .cost {
-    color: #0d5893; /* Blueberry bushel */
+    color: #0d5893; /* Blueberry bushel 
     text-decoration-color: #0d5893;
 }
 
 .savings {
-    color: #00825b; /* Shaded spruce */
+    color: #00825b; /* Shaded spruce 
     text-decoration-color: 00825b;
 }
-
+*/
 /* Utility classes */
 .hide {
     display: none;
