@@ -1,137 +1,321 @@
 ![CCWK logo](assets/images/fl255.svg)
 
-Creative Crafts with Kel is envisioned as a community hub, where like-minded crafters and hobbyists can come for inspiration, information and to see the important announcements coming from Stampin' Up!
+# Creative Crafts with Kel is envisioned as a community hub, where like-minded crafters and hobbyists can come for inspiration, information and to see the important announcements coming from Stampin' Up!
 
+The site homepage contains links to internal pages and sections, external sources for the Stampin' Up! shop and catalogues and a newsletter sign-up form.
 
+Other pages include a 'join the team' page, 'gallery' of pictures and a page to request a physical copy of the catalogues.
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+In the 'monthly card workshop' section there is information regarding community crafting sessions.  
+A place for people to come together in person and craft together.
 
-Welcome Seamus Leacy,
+![Am I Responsive](assets/images/Responsive.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View Creative Crafts with Kel live project here](https://hobbesunleashed.github.io/creative-crafts-with-kel/index.html)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+- - -
+## Table of Contents
 
-## Gitpod Reminders
+### [User Experience (UX)](#user-experience-ux-1)
+* [User Stories](#user-stories)
+### [Design](#design-1)
+### [Features](#features)
+* [Existing Features](#existing-features)
+### [Features Left to Implement](#features-left-to-implement-1)
+### [Technologies Used](#technologies-used-1)
+### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
+### [Testing](#testing-1)
+* [Validation Results](#validation-results)
+* [Manual Testing](#manual-testing)
+* [Lighthouse Report](#lighthouse-report)
+### [Deployment and local development](#deployment-and-local-development-1)
+* [GitHub Pages](#github-pages)
+* [Forking the GitHub Repository](#forking-the-github-repository)
+* [Local Clone](#local-clone)
+### [Credits](#credits-1)
+### [Acknowledgements](#acknowledgements-1)
+---
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+This website was devised to attract people who like to craft using paper, card and other household materials.
 
-A blue button should appear to click: _Make Public_,
+There is clear navigation and a forms set up on the index and catalogue pages for newsletters and catalogues .
 
-Another blue button should appear to click: _Open Browser_.
+Users can view a selection of past creations and follow the social media links in the footer for further examples of work.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+### User Stories
 
-A blue button should appear to click: _Make Public_,
+ * First-time visitor goals
+    * Understand the main purpose of the site and learn more about Kerry and what she stands for.
+    * Easily navigate throughout the site.
+    * Find the Newsletter Sign Up form and fill it out.
+ * Returning visitor goals
+    * Find out information about Stampin' Up!
+    * Request a catalogue.
+    * Review the site's extensive gallery.
+    * Find out about classes or workshops
+ * Frequent user goals
+    * Visit the Stampin' Up! shop - using Kerry's demonstrator code.
+    * Review the gallery for any new photos.
+    * Join Kerry's Stampin' Up! team
+- - -
 
-Another blue button should appear to click: _Open Browser_.
+## Design
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ * Colour Scheme
 
-To log into the Heroku toolbelt CLI:
+<details>
+<summary>Primary colors used on the website:
+</summary>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Color Scheme](assets/images/primary.png)
+</details> 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+<details>
+<summary>Secondary colors used on the website:
+</summary>
 
-### Connecting your Mongo database
+![Color Scheme](assets/images/secondary.png)
+</details> 
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+<details>
+<summary>Gradients for the navigation banners:
+</summary>
 
-------
+![Color Scheme](assets/images/gradient-banner.png)
+</details> 
 
-## Release History
+<details>
+<summary>Gradients for the sign-up forms:
+</summary>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Color Scheme](assets/images/gradient-forms.png)
+</details> 
 
-**June 18, 2024,** Add Mongo back into template
+ * Typography
+    * _Monserrat_ font is main font used throughout the site with _sans-serif_ as its fallback font in case _Monserrat_ isn't supported for some reason.
+    * H2 elements are styled using the Google font _Dancing Script_ with _cursive_ as its fallback, in case _Dancing Script_ doesn't import for some reason.
+    * H3 elements are styled using the Google font _Satisfy_ with _cursive_ as its fallback, in case _Satisfy_ doesn't import for some reason.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+ * Wireframes
+    * Pen and paper in a notebook: simple and effective.
+---
 
-**May 28 2024:** Fix Mongo and Links installs
+## Features
 
-**April 26 2024:** Update node version to 16
+* This website is targeting people who want to learn more about paper crafts and Stampin' Up!
+* They can do that by navigating to the catalogue page and request the physical brochures.
+* Alternatively, visit the shop or view the catalogues online.
+* Learn about Kerry and to follow her story.
+* Responsive on device sizes below 2000px wide.  
 
-**September 20 2023:** Update Python version to 3.9.17.
+### Existing Features
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<details>
+<summary>Logo:
+</summary>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Logo](assets/images/logo.png)
+</details> 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* Logo  
+    * Comprised of a centralised image featuring a ribbon banner and colourful flower image beneath.
+    * Logo is consistant across all pages of the site.
+    * Logo remains static throughout the site.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<details>
+<summary>Navigation bar:
+</summary>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Navigation](/assets/images/navigation.png)
+</details>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* Navigation bar
+    * It is featured and fixed on all pages and the thank-you page.
+    * Includes links to the home page, gallery, crew and catalogue pages.
+    * Includes section link to _.classes_ section
+    * It is identical in design across the pages.
+    * Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<details>
+<summary>My story:
+</summary>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Story](/assets/images/story.png)
+</details>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Section one, 'My story'
+    * This section contains an image of Kerry.
+    * A description of Kerry's crafting journey and her hopes for the site.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<details>
+<summary>Newsletter form:
+</summary>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Newsletter](/assets/images/newsletter.png)
+</details>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Section two, 'Newsletter'
+    * A sign-up form for the monthly email bulletin that Kerry sends to subscribers.
+    * Button to submit the form.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<details>
+<summary>Find out more:
+</summary>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![More](/assets/images/extras.png)
+</details>
 
-------
+* Section three, 'Find out more'
+    * Links to useful Stampin' Up! resources - such as the shop and catalogues.
+    * Link to information about joining Kerry's team.
 
-## FAQ about the uptime script
+<details>
+<summary>Monthly card workshops:
+</summary>
 
-**Why have you added this script?**
+![Workshop](/assets/images/workshops.png)
+</details>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* Section four, 'Monthly card workshop'
+    * Information regarding the workshops, what to expect and the cost.
+    * iframes Google map showing the location of the workshop.
 
-**How will this affect me?**
+<details>
+<summary>Footer:
+</summary>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![Footer](/assets/images/footer.png)
+</details>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* Footer
+    * Links to the social media for Creative Crafts with Kel will open in a new tab to allow easy navigation for the user.
+    * It is valuable to the user as it gives them an easy contact option via social media.
+    * Hold copyright information about the author. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<details>
+<summary>Gallery headers:
+</summary>
 
-**So….?**
+![Gallery](/assets/images/gallery.png)     ![Gallery](/assets/images/gallery2.png)     ![Gallery](/assets/images/gallery3.png)
+</details>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* Gallery 
+    * The gallery will provide the user with supporting images to see events, workshops and examples of Kerry's work.
+    * This section is valuable to the user as they will see our previous events and workshops - providing an insight into the activities undertaken.
 
-**Can I opt out?**
+<details>
+<summary>Catalogue sections:
+</summary>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![Physical](/assets/images/catalogue.png)    ![Digital](/assets/images/catalogues.png)
+</details>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* The Request a catalogue page
+    * This page will allow users to sign up to receive a free copy of the Stampin' Up! catalogues.
+    * Provides a link to be able to view the catalogues online - in a range of languages.
+    * Due to seasonal rotation, the catalogues will update regularly. 
 
-**Anything more?**
+<details>
+<summary>Thank you:
+</summary>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![Form received](/assets/images/thank-you.png)
+</details>
+
+* The Thank you page
+    * Form received and acknowledged
 
 ---
 
-Happy coding!
+## Future features
+
+* Blog pages to follow Kerry on her crafting journey.
+* Updated gallery with additional images.
+* Rotating images for the gallery page.
+* Filter function for the gallery page.
+* Support for screen sizes >2000px wide.
+---
+
+## Technologies Used
+
+ * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+---
+
+## Frameworks, Libraries & Programs Used
+
+ * [Gitpod](https://www.gitpod.io/)
+    * To write the code.
+ * [Git](https://git-scm.com/)
+    * for vesion control.
+ * [Github](https://github.com/)
+    * Deployment of the website and storing the files online.
+ * [Google Fonts](https://fonts.google.com/)
+    * Import main font the website.
+* [Am I Responsive](https://ui.dev/amiresponsive)
+    * Mockup picture for the README file.
+---
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
+
+ * [W3C Markup Validtor](https://validator.w3.org/)
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+ ### Validation results
+
+<details>
+<summary>index.html
+</summary>
+
+![Home Page validation result](/assets/images/validation-html.png)
+</details>
+
+<details>
+<summary>gallery.html
+</summary>
+
+![Home Page validation result](/assets/images/validation-html.png)
+</details>
+
+<details>
+<summary>crew.html
+</summary>
+
+![Home Page validation result](/assets/images/validation-html.png)
+</details>
+
+<details>
+<summary>catalogue.html
+</summary>
+
+![Home Page validation result](/assets/images/validation-html.png)
+</details>
+
+<details>
+<summary>thank-you.html
+</summary>
+
+![Home Page validation result](/assets/images/validation-html.png)
+</details>
+
+<details>
+<summary>style.css
+</summary>
+
+![Home Page validation result](/assets/images/validation-css.png)
+</details>
+
+### Manual Testing
+
+* The website was tested on Google Chrome, Microsoft Edge, and Opera browsers.
+* The website was viewed on a desktop computer, laptop, and Samsung Galaxy A52 mobile phone.
+* A large amount of testing was done to ensure links between pages are working correctly on all pages.
+* Family and friends were asked to review the website for a better understanding of the user experience.
+* Dev Tools was used to test how the site looks on various screen sizes.
+
+### Lighthouse Report
