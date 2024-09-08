@@ -1,3 +1,9 @@
+![CCWK logo](assets/images/fl255.svg)
+
+Creative Crafts with Kel is envisioned as a community hub, where like-minded crafters and hobbyists can come for inspiration, information and to see the important announcements coming from Stampin' Up!
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Seamus Leacy,
