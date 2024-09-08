@@ -187,33 +187,7 @@ h3 {
     text-decoration: none;
     font-size: 1.5rem;
 }
-/*
-.melon-mambo {
-    text-decoration-color: #e94d88;
-}
 
-.pumpkin-pie {
-    text-decoration-color: #f49733;
-}
-
-.granny-apple-green {
-    text-decoration-color: #a3c149;
-}
-
-.azure-afternoon {
-    text-decoration-color: #26a0d6;
-}
-
-.cost {
-    color: #0d5893; /* Blueberry bushel 
-    text-decoration-color: #0d5893;
-}
-
-.savings {
-    color: #00825b; /* Shaded spruce 
-    text-decoration-color: 00825b;
-}
-*/
 /* Utility classes */
 .hide {
     display: none;
@@ -252,6 +226,7 @@ header {
     width: 98.6%;
 }
 
+/* Navigation bar */
 nav {
     position: absolute;
     width: 98.6%;
@@ -359,7 +334,6 @@ footer {
     width: 90%;
     margin-top: 10px;
     background-image: linear-gradient(-25deg, #a9dcd6, #6ea39f, #006f70);
-    /*background: url(../images/Backing-white.png) no-repeat top center/cover;*/
     margin: auto;
 }
 
