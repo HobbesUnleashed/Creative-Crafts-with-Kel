@@ -221,7 +221,7 @@ Users can view a selection of past creations and follow the social media links i
 <summary>Thank you:
 </summary>
 
-![Form received](/assets/images/thank-you.png)
+![Form received](assets/images/form-submit.png)    ![Form received](/assets/images/thank-you.png)
 </details>
 
 * The Thank you page
@@ -318,4 +318,78 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 * Family and friends were asked to review the website for a better understanding of the user experience.
 * Dev Tools was used to test how the site looks on various screen sizes.
 
-### Lighthouse Report
+### PageSpeed Insights Report
+
+#### Mobile analysis
+
+<details>
+<summary>Home page (index.html)
+</summary>
+
+![Home Page PageSpeed result](/assets/images/lh-mob-index.png)
+</details>
+
+<details>
+<summary>Gallery page (gallery.html)
+</summary>
+
+![Gallery Page PageSpeed result](/assets/images/lh-mob-gallery.png)
+</details>
+
+<details>
+<summary>Crafty Crew page (crew.html)
+</summary>
+
+![Crafty Crew Page PageSpeed result](/assets/images/lh-mob-crew.png)
+</details>
+
+<details>
+<summary>Request a catalogue page (catalogue.html)
+</summary>
+
+![Catalogue Page PageSpeed result](/assets/images/lh-mob-catalogue.png)
+</details>
+
+<details>
+<summary>Thank you page (thank-you.html)
+</summary>
+
+![Gallery Page PageSpeed result](/assets/images/lh-mob-thanks.png)
+</details>
+
+#### Desktop analysis
+
+<details>
+<summary>Home page (index.html)
+</summary>
+
+![Home Page PageSpeed result](/assets/images/lh-desk-index.png)
+</details>
+
+<details>
+<summary>Gallery page (gallery.html)
+</summary>
+
+![Gallery Page PageSpeed result](/assets/images/lh-desk-gallery.png)
+</details>
+
+<details>
+<summary>Crafty Crew page (crew.html)
+</summary>
+
+![Crafty Crew Page PageSpeed result](/assets/images/lh-desk-crew.png)
+</details>
+
+<details>
+<summary>Request a catalogue page (catalogue.html)
+</summary>
+
+![Catalogue Page PageSpeed result](/assets/images/lh-desk-catalogue.png)
+</details>
+
+<details>
+<summary>Thank you page (thank-you.html)
+</summary>
+
+![Gallery Page PageSpeed result](/assets/images/lh-desk-thanks.png)
+</details>
