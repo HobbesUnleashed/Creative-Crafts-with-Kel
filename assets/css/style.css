@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    width: 95%;
+}
+
 /* Colors palette */
 /* Brights and subtles collections */
 .red {
@@ -394,7 +398,7 @@ footer {
 }
 
 #cave-map {
-    width: 100%;
+    width: 95%;
     margin: auto;
 }
 
@@ -537,6 +541,7 @@ figcaption {
         column-gap: 6%;
     }
 
+    /* Gallery page */
     #onstage, #workshops, #cards {
         column-count: 3;
     }
