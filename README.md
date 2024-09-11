@@ -65,16 +65,16 @@ Users can view a selection of past creations and follow the social media links i
 
  * Colour Scheme
     * Primary colors used on the website:   
-    ![Color Scheme](assets/images/primary.png)
+    ![Color Scheme](assets/readme/primary.png)
 
     * Secondary colors used on the website:   
-    ![Color Scheme](assets/images/secondary.png)
+    ![Color Scheme](assets/readme/secondary.png)
 
     * Gradients for the navigation banners:   
-    ![Color Scheme](assets/images/gradient-banner.png)
+    ![Color Scheme](assets/readme/gradient-banner.png)
 
     * Gradients for the sign-up forms:   
-    ![Color Scheme](assets/images/gradient-forms.png)
+    ![Color Scheme](assets/readme/gradient-forms.png)
 
  * Typography
     * _Monserrat_ font is main font used throughout the site with _sans-serif_ as its fallback font in case _Monserrat_ isn't supported for some reason.
@@ -83,5 +83,109 @@ Users can view a selection of past creations and follow the social media links i
 
  * Wireframes
     * Pen and paper in a notebook: simple and effective.
+---
+
+## Features
+
+* This website is targeting people who want to learn more about paper crafts and Stampin' Up!
+* They can do that by navigating to the catalogue page and request the physical brochures.
+* Alternatively, visit the shop or view the catalogues online.
+* Learn about Kerry and to follow her story.
+* Responsive on device sizes below 2000px wide.  
+
+### Existing Features
+
+* Logo  
+    * Comprised of a centralised image featuring a ribbon banner and colourful flower image beneath.
+    * Logo is consistant across all pages of the site.
+    * Logo remains static throughout the site.
+
+    ![Logo](assets/readme/logo.png)
+
+* Navigation bar
+    * It is featured and fixed on all pages and the thank-you page.
+    * Includes links to the home page, gallery, crew and catalogue pages.
+    * Includes section link to _.classes_ section
+    * It is identical in design across the pages.
+    * Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
+
+    ![Navigation](/assets/readme/navigation.png)
+
+* Section one, 'My story'
+    * This section contains an image of Kerry.
+    * A description of Kerry's crafting journey and her hopes for the site.
+
+    ![Story](/assets/readme/story.png)
+
+* Section two, 'Newsletter'
+    * A sign-up form for the monthly email bulletin that Kerry sends to subscribers.
+    * Button to submit the form.   
+
+    ![Newsletter](/assets/readme/newsletter.png)
+
+* Section three, 'Find out more'
+    * Links to useful Stampin' Up! resources - such as the shop and catalogues.
+    * Link to information about joining Kerry's team.   
+
+    ![More](/assets/readme/extras.png)
+
+* Section four, 'Monthly card workshop'
+    * Information regarding the workshops, what to expect and the cost.
+    * iframes Google map showing the location of the workshop.   
+
+    ![Workshop](/assets/readme/workshops.png)
+
+* Footer
+    * Links to the social media for Creative Crafts with Kel will open in a new tab to allow easy navigation for the user.
+    * It is valuable to the user as it gives them an easy contact option via social media.
+    * Hold copyright information about the author.    
+
+    ![Footer](/assets/readme/footer.png)
+
+* Gallery - Onstage section
+    * The gallery provides the user with supporting images to the _Stampin' Up! Onstage_ event.
+    * This section is valuable to the user as they will see our previous events and workshops - providing an insight into the activities undertaken.
+
+    ![Gallery](/assets/readme/gallery.png)
+
+* Gallery - Workshops section
+    * The gallery provides the user with supporting images to the various workshops we hold.
+    * This section is valuable to the user as they will see our previous events and workshops - providing an insight into the activities undertaken.
+
+    ![Gallery](/assets/readme/gallery2.png)
+
+* Gallery - Examples of work section
+    * The gallery provides the user with supporting images to see examples of Kerry's work.
+    * This section is valuable to the user as they will see our previous events and workshops - providing an insight into the activities undertaken.
+
+    ![Gallery](/assets/readme/gallery3.png)
+
+* The Request a catalogue page - Form submission
+    * This page will allow users to sign up to receive a free copy of the Stampin' Up! catalogues.
+    * Due to seasonal rotation, the catalogues will update regularly. 
+
+    ![Physical](/assets/readme/catalogue.png)
+
+* The Request a catalogue page - Digital catalogues
+    * Provides a link to be able to view the catalogues online - in a range of languages.
+    * Due to seasonal rotation, the catalogues will update regularly.
+
+    ![Digital](/assets/readme/catalogues.png)
+
+* The Thank you page
+    * Form received and acknowledged
+    * Created a custom _thank you_ page after testing the form submission
+
+    ![Form received](/assets/readme/thank-you.png)
+
+---
+
+## Future features
+
+* Blog pages to follow Kerry on her crafting journey.
+* Updated gallery with additional images.
+* Rotating images for the gallery page.
+* Filter function for the gallery page.
+* Support for screen sizes >2000px wide.
 ---
 
