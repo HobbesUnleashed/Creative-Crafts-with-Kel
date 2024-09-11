@@ -196,3 +196,16 @@ Users can view a selection of past creations and follow the social media links i
 
 ---
 
+## Frameworks, Libraries & Programs Used
+
+ * [Gitpod](https://www.gitpod.io/)
+    * To write the code.
+ * [Git](https://git-scm.com/)
+    * for vesion control.
+ * [Github](https://github.com/)
+    * Deployment of the website and storing the files online.
+ * [Google Fonts](https://fonts.google.com/)
+    * Import main font the website.
+* [Am I Responsive](https://ui.dev/amiresponsive)
+    * Mockup picture for the README file.
+---
