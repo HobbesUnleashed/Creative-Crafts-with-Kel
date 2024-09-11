@@ -369,7 +369,7 @@ footer {
 }
 
 /* Workshops section styling */
-.workshops {
+#workshops {
     display: grid;
     grid-template-columns: 1fr;
     padding-top: 1em;
@@ -570,7 +570,7 @@ figcaption {
         grid-template-columns: 30% 1fr;
     }
 
-    .workshops {
+    #workshops {
         grid-template-columns: 450px 1fr;
         gap: 0.75em;
         align-items: center;
