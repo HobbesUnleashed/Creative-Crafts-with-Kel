@@ -386,3 +386,25 @@ By forking the repository, we make a copy of the original repository on our GitH
 7. Press Enter and your local clone will be created.
 
 ---
+
+## Credits
+
+### Code
+ * Understanding the concept of flexbox was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+ * Understanding the concept of grid layouts was primarily through the video guides of [Kevin Powell](https://www.youtube.com/@KevinPowell)
+ * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+### Content
+
+ * All content was written by the developer.
+ * Colours listed as current from _Stampin' Up!_ were used to decide which colours would be used for the website.
+
+### Media 
+
+ * All media provided by _Creative-crafts-with-kel_ and _Stampin' Up!_
+---
+
+## Acknowledgements
+
+ * My mentor Mitko Bachvarov provided helpful feedback and a link to the Flexbox guide.
+ * Slack community for encouragement and information.
