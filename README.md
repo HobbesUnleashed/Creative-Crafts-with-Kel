@@ -60,3 +60,28 @@ Users can view a selection of past creations and follow the social media links i
     * Review the gallery for any new photos.
     * Join Kerry's Stampin' Up! team
 - - -
+
+## Design
+
+ * Colour Scheme
+    * Primary colors used on the website:   
+    ![Color Scheme](assets/images/primary.png)
+
+    * Secondary colors used on the website:   
+    ![Color Scheme](assets/images/secondary.png)
+
+    * Gradients for the navigation banners:   
+    ![Color Scheme](assets/images/gradient-banner.png)
+
+    * Gradients for the sign-up forms:   
+    ![Color Scheme](assets/images/gradient-forms.png)
+
+ * Typography
+    * _Monserrat_ font is main font used throughout the site with _sans-serif_ as its fallback font in case _Monserrat_ isn't supported for some reason.
+    * H2 elements are styled using the Google font _Dancing Script_ with _cursive_ as its fallback, in case _Dancing Script_ doesn't import for some reason.
+    * H3 elements are styled using the Google font _Satisfy_ with _cursive_ as its fallback, in case _Satisfy_ doesn't import for some reason.
+
+ * Wireframes
+    * Pen and paper in a notebook: simple and effective.
+---
+
