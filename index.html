@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for search engines -->
-     <meta name="description" content="Creative crafts with kel is a site for like-minded crafters to gain inspiration for paper crafting projects, using Stampin' Up! products. Featuring classes, tutorials, photos and more.">
-     <meta name="keywords" content="Creative crafts with kel, creative, crafts, stampin' up!, stampin' up! UK, Demonstrator, paper crafting, colour co-ordination">
-     <!-- Link to stylesheet -->
-     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <meta name="description" content="Creative crafts with kel is a site for like-minded crafters to gain inspiration for paper crafting projects, using Stampin' Up! products. Featuring classes, tutorials, photos and more.">
+    <meta name="keywords" content="Creative crafts with kel, creative, crafts, stampin' up!, stampin' up! UK, Demonstrator, paper crafting, colour co-ordination">
+    <!-- Link to stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Home</title>
 </head>
 <body>
-    <!-- Header element and contents -->
-    <header>
+    <<header>
         <!-- Logo block and index hyperlink -->
-        <a href="index.html" class="logo-link">
-            <div id="logo-image"></div>
+        <a href="index.html">
+            <div class="logo-image"></div>
         </a>
-        <div id="logo-text">UK Independent Stampin' Up! Demonstrator</div>
+        <div class="logo-text">
+            UK Independent Stampin' Up! Demonstrator
+        </div>
         <!-- Navigation toolbar and dropdown checkbox -->
         <nav>
             <input type="checkbox" id="nav-toggle" name="nav-toggle">
@@ -28,22 +29,18 @@
                 <li class="nav-block"><a href="gallery.html" title="Gallery">Gallery</a></li>
                 <li class="nav-block"><a href="crew.html" title="Join my team">Crafty Crew</a></li>
                 <li class="nav-block"><a href="catalogue.html" title="Request a catalogue">Request a catalogue</a></li>
-                <!--<li class="nav-block"><a href="blog.html" title="Read my blog">Blog</a></li>      To be added at a later date -->
             </ul>
         </nav>
     </header>
     <!-- The main body of the webpage -->
-    <main id="story-title">
+    <main>
         <hr class="border-pink">
-        <!-- My Story section -->
-        <h2 class="pink grey">My story</h2>
-        <section id="story">
+        <h2 class="pink grey">My story:</h2>
+        <!-- Section to know more about Kel -->
+        <section class="story">
             <h2 class="hide">My story</h2>
-            <!-- Image of Kerry -->
-            <div id="story-image-bg"></div>
-            <br>
-            <!-- Kerry's story text -->
-            <div id="story-blurb">
+            <div class="story-image"></div>
+            <div class="story-blurb">
                 <p>Hello and welcome to my website and blog.</p>
                 <p>My name is Kerry Lee (my friends call me Kel) and I have been a Stampin Up! Demonstrator since November 2021. I live in central London and am a busy mum of 3 children who keep me on my toes. I love to be creative and share my love of creativity and papercrafting via all of my social media and in person classes and workshops. I have a team called The Crafty Crew which is made up of likeminded, friendly people and I love to support and help them whether that means as a business or a hobby demonstrator.</p>
                 <p>I am often asked why I joined Stampin' Up! and I always say the same - the colour co-ordination of cardstocks, designer papers, Inks and embellishments, the quality of the product and ease of use but what I didn't expect or know is that I would join the most amazing community of crafters that I know am lucky enough to call friends.</p>
@@ -53,92 +50,66 @@
                 <p>Kerry</p>
             </div>
         </section>
-        <br>
         <hr class="border-orange">
-        <!-- Newsletter section -->
-        <section id="newsletter">
-            <h2 class="orange grey">Newsletter</h2>
-            <br>
-            <!-- Form to signup to the newsletter -->
-            <form action="thank-you.html" method="get" id="newsletter-signup">
-                <br>
-                <label class="form-label" for="nl-first-name">First Name:</label>
-                <input type="text" name="nl-first-name" id="nl-first-name" class="form-inputs" required>
-                <br>
-                <label class="form-label" for="nl-last-name">Last Name:</label>
-                <input type="text" name="nl-last-name" id="nl-last-name" class="form-inputs" required>
-                <br>
-                <label class="form-label" for="nl-email-address">Email Address:</label>
-                <input type="email"  name="nl-email-address" id="nl-email-address" class="form-inputs" required>
-                <br>
-                <button type="submit" class="submit-btn">Submit</button>
-                <br>
-            </form>
-        </section>
-        <br>
-        <hr class="border-green">
-        <!-- A 4-div section -->
-         <!-- Section of useful links -->
-        <section id="four-way-section">
-            <h2 class="green grey">Find out more</h2>
-            <br>
-            <div id="four-way-div">
-                <div id="top-div">
-                    <a href="https://www.stampinup.uk/?demoid=5057828" target="_blank" rel="noopener" aria-label="Visit the Stampin' Up! shop (opens in new tab)">
-                        <div id="online-shop" class="top-two">
-                            <h3 class="petal">Online Shop</h3>
-                            <p class="four-divs">Order Stampin' Up! products - delivered direct to your door</p>
-                        </div>
-                        <br class="hidden-lap">
-                    </a>
-                    <a href="crew.html" aria-label="Crafty Crew information">
-                        <div id="crew" class="top-two">
-                            <h3 class="petal">Crafty Crew</h3>
-                            <p class="four-divs">Join my Crafty Crew</p>
-                        </div>
-                    </a>
-                </div>
-                <br class="hidden-lap">
-                <div id="bottom-div">
-                    <a href="https://www.stampinup.uk/catalogs/digital-catalogues" target="_blank" rel="noopener" aria-label="Visit the digital catalogue page of Stampin' Up! (opens in new tab)">
-                        <div id="catalogue-view" class="bottom-two">
-                            <h3 class="petal">View the Catalogues</h3>
-                            <p class="four-divs">View it online</p>
-                        </div>
-                    </a>
-                    <br class="hidden-lap">
-                    <a href="catalogue.html" aria-label="Request a catalogue">
-                        <div id="catalogue-request" class="bottom-two">
-                            <h3 class="petal">Request the Catalogues</h3>
-                            <p class="four-divs">Request your free paper copy</p>
-                        </div>
-                    </a>
-                </div>
+        <h2 class="orange grey">Newsletter:</h2>
+        <!-- Section to sign up to the monthly newsletter -->
+        <section class="newsletter">
+            <h2 class="hide">Newsletter</h2>
+            <div class="nl-signup">
+                <form action="thank-you.html" method="get" id="newsletter-signup">
+                    <label class="form-label" for="nl-first-name">First Name:</label>
+                    <input type="text" name="nl-first-name" id="nl-first-name" class="form-inputs" required>
+                    <br>
+                    <label class="form-label" for="nl-last-name">Last Name:</label>
+                    <input type="text" name="nl-last-name" id="nl-last-name" class="form-inputs" required>
+                    <br>
+                    <label class="form-label" for="nl-email-address">Email Address:</label>
+                    <input type="email"  name="nl-email-address" id="nl-email-address" class="form-inputs" required>
+                    <br>
+                    <button type="submit" class="submit-btn">Submit</button>
+                    <br>
+                </form>
             </div>
-            <br class="hidden-lap">
         </section>
-        <br>
+        <hr class="border-green">
+        <h2 class="green grey">Find out more:</h2>
+        <!-- Section for the extras on the site -->
+        <section class="extras">
+            <h2 class="hide">Find out more:</h2>
+            <div class="shop">
+                <h3 class="petal headings3">Online Shop</h3>
+                <p class="four-divs">Order Stampin' Up! products - delivered direct to your door</p>
+            </div>
+            <div class="view">
+                <h3 class="petal headings3">View the Catalogues</h3>
+                <p class="four-divs">View it online</p>
+            </div>
+            <div class="crew">
+                <h3 class="petal headings3">Crafty Crew</h3>
+                <p class="four-divs">Join my Crafty Crew</p>
+            </div>
+            <div class="request">
+                <h3 class="petal headings3">Request the Catalogues</h3>
+                <p class="four-divs">Request your free paper copy</p>
+            </div>
+        </section>
         <hr class="border-blue">
-        <!-- Monthly workshops section -->
-        <h2 class="blue grey">Monthly card workshop</h2>
-        <section id="cave">
-            <h2 class="hide">Monthly card workshop</h2>
-            <br>
-            <div id="cave-info">
-                <p>Once a month I hold a card making workshop. Why not come along and have some fun.</p> 
+        <h2 class="blue grey">Monthly workshop:</h2>
+        <!-- Section with information regarding monthly workshops -->
+        <section class="workshops">
+            <h2 class="hide">Monthly workshop</h2>
+            <div class="cave-blurb">
+                <p>Once a month I hold a card making workshop. Why not come along and have some fun.</p>
                 <p>The price includes all the materials and equipment you will need to make a gorgeous handmade card with embellishments.</p>
                 <p>This is a great opportunity to meet people, get crafty, maybe find a new hobbie/interest and of course make a card with others.</p>
                 <p>Also why not bring a friend?</p>
                 <br>
                 <p><span style="font-style: italic;">Cost: </span>£10 per class</p>
             </div>
-            <br>
-            <!-- Google maps iframe location of the cave -->
-            <div id="cave-map">
-                <div style="width: 100%"><iframe width="300" height="300" style="border: none;" src="https://maps.google.com/maps?width=100%25&amp;max-height=300&amp;hl=en&amp;q=81%20Tachbrook%20St,%20Lillington%20and%20Longmoore%20Gardens,%20London%20SW1V%202QP+(cave)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+            <div class="cave-map">
+                <div style="width: 100%"><iframe width="100%" height="300" style="border: none;" src="https://maps.google.com/maps?width=100%25&amp;max-height=300&amp;hl=en&amp;q=81%20Tachbrook%20St,%20Lillington%20and%20Longmoore%20Gardens,%20London%20SW1V%202QP+(cave)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
             </div>
         </section>
-        <br>
     </main>
     <!-- Footer element and contents -->
     <footer>
