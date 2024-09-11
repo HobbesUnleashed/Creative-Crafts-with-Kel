@@ -398,6 +398,9 @@ By forking the repository, we make a copy of the original repository on our GitH
 
  * All content was written by the developer.
  * Colours listed as current from _Stampin' Up!_ were used to decide which colours would be used for the website.
+ * Code for the footer section - social links - was taken from the _CI Love running_ website.
+ * Headers and Nav bars were heavily influenced by the _CI Love running_ website.
+ * Gallery page and picture layouts were heavily influenced by the _CI Love running_ website.
 
 ### Media 
 
