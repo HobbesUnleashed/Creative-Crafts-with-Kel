@@ -189,3 +189,10 @@ Users can view a selection of past creations and follow the social media links i
 * Support for screen sizes >2000px wide.
 ---
 
+## Technologies Used
+
+ * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+---
+
