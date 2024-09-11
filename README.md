@@ -209,3 +209,148 @@ Users can view a selection of past creations and follow the social media links i
 * [Am I Responsive](https://ui.dev/amiresponsive)
     * Mockup picture for the README file.
 ---
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
+
+ * [W3C Markup Validtor](https://validator.w3.org/)
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+ ### Validation results
+
+<details>
+<summary>index.html
+</summary>
+
+![Home Page validation result](/assets/readme/validation-html.png)
+</details>
+
+<details>
+<summary>gallery.html
+</summary>
+
+![Home Page validation result](/assets/readme/validation-html.png)
+</details>
+
+<details>
+<summary>crew.html
+</summary>
+
+![Home Page validation result](/assets/readme/validation-html.png)
+</details>
+
+<details>
+<summary>catalogue.html
+</summary>
+
+![Home Page validation result](/assets/readme/validation-html.png)
+</details>
+
+<details>
+<summary>thank-you.html
+</summary>
+
+![Home Page validation result](/assets/readme/validation-html.png)
+</details>
+
+<details>
+<summary>style.css
+</summary>
+
+![Home Page validation result](/assets/readme/validation-css.png)
+</details>
+
+### Manual Testing
+
+* The website was tested on Google Chrome, Microsoft Edge, and Opera browsers.
+* The website was viewed on a desktop computer, laptop, and Samsung Galaxy A52 mobile phone.
+* A large amount of testing was done to ensure links between pages are working correctly on all pages.
+* Family and friends were asked to review the website for a better understanding of the user experience.
+* Dev Tools was used to test how the site looks on various screen sizes.
+
+### PageSpeed Insights Report
+
+#### Mobile analysis
+
+<details>
+<summary>Home page (index.html)
+</summary>
+
+![Home Page PageSpeed result](/assets/readme/lh-mob-index.png)
+</details>
+
+<details>
+<summary>Gallery page (gallery.html)
+</summary>
+
+![Gallery Page PageSpeed result](/assets/readme/lh-mob-gallery.png)
+</details>
+
+<details>
+<summary>Crafty Crew page (crew.html)
+</summary>
+
+![Crafty Crew Page PageSpeed result](/assets/readme/lh-mob-crew.png)
+</details>
+
+<details>
+<summary>Request a catalogue page (catalogue.html)
+</summary>
+
+![Catalogue Page PageSpeed result](/assets/readme/lh-mob-catalogue.png)
+</details>
+
+<details>
+<summary>Thank you page (thank-you.html)
+</summary>
+
+![Gallery Page PageSpeed result](/assets/readme/lh-mob-thanks.png)
+</details>
+
+#### Desktop analysis
+
+<details>
+<summary>Home page (index.html)
+</summary>
+
+![Home Page PageSpeed result](/assets/readme/lh-desk-index.png)
+</details>
+
+<details>
+<summary>Gallery page (gallery.html)
+</summary>
+
+![Gallery Page PageSpeed result](/assets/readme/lh-desk-gallery.png)
+</details>
+
+<details>
+<summary>Crafty Crew page (crew.html)
+</summary>
+
+![Crafty Crew Page PageSpeed result](/assets/readme/lh-desk-crew.png)
+</details>
+
+<details>
+<summary>Request a catalogue page (catalogue.html)
+</summary>
+
+![Catalogue Page PageSpeed result](/assets/readme/lh-desk-catalogue.png)
+</details>
+
+<details>
+<summary>Thank you page (thank-you.html)
+</summary>
+
+![Gallery Page PageSpeed result](/assets/readme/lh-desk-thanks.png)
+</details>
+
+### Form submission testing
+
+<details>
+<summary>Form submission test</summary>
+
+![Form received](assets/readme/form-submit.png)
+</details>
+
+---
