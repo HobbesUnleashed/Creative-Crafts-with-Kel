@@ -27,7 +27,7 @@ A place for people to come together in person and craft together.
 ### [Testing](#testing-1)
 * [Validation Results](#validation-results)
 * [Manual Testing](#manual-testing)
-* [Lighthouse Report](#lighthouse-report)
+* [PageSpeed Insights Report](#pagespeed-insights-report)
 ### [Deployment and local development](#deployment-and-local-development-1)
 * [GitHub Pages](#github-pages)
 * [Forking the GitHub Repository](#forking-the-github-repository)
@@ -64,34 +64,17 @@ Users can view a selection of past creations and follow the social media links i
 ## Design
 
  * Colour Scheme
+    * Primary colors used on the website:   
+    ![Color Scheme](assets/images/primary.png)
 
-<details>
-<summary>Primary colors used on the website:
-</summary>
+    * Secondary colors used on the website:   
+    ![Color Scheme](assets/images/secondary.png)
 
-![Color Scheme](assets/images/primary.png)
-</details> 
+    * Gradients for the navigation banners:   
+    ![Color Scheme](assets/images/gradient-banner.png)
 
-<details>
-<summary>Secondary colors used on the website:
-</summary>
-
-![Color Scheme](assets/images/secondary.png)
-</details> 
-
-<details>
-<summary>Gradients for the navigation banners:
-</summary>
-
-![Color Scheme](assets/images/gradient-banner.png)
-</details> 
-
-<details>
-<summary>Gradients for the sign-up forms:
-</summary>
-
-![Color Scheme](assets/images/gradient-forms.png)
-</details> 
+    * Gradients for the sign-up forms:   
+    ![Color Scheme](assets/images/gradient-forms.png)
 
  * Typography
     * _Monserrat_ font is main font used throughout the site with _sans-serif_ as its fallback font in case _Monserrat_ isn't supported for some reason.
@@ -112,24 +95,12 @@ Users can view a selection of past creations and follow the social media links i
 
 ### Existing Features
 
-<details>
-<summary>Logo:
-</summary>
-
-![Logo](assets/images/logo.png)
-</details> 
-
 * Logo  
     * Comprised of a centralised image featuring a ribbon banner and colourful flower image beneath.
     * Logo is consistant across all pages of the site.
     * Logo remains static throughout the site.
 
-<details>
-<summary>Navigation bar:
-</summary>
-
-![Navigation](/assets/images/navigation.png)
-</details>
+    ![Logo](assets/readme/logo.png)
 
 * Navigation bar
     * It is featured and fixed on all pages and the thank-you page.
@@ -138,94 +109,74 @@ Users can view a selection of past creations and follow the social media links i
     * It is identical in design across the pages.
     * Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
 
-<details>
-<summary>My story:
-</summary>
-
-![Story](/assets/images/story.png)
-</details>
+    ![Navigation](/assets/readme/navigation.png)
 
 * Section one, 'My story'
     * This section contains an image of Kerry.
     * A description of Kerry's crafting journey and her hopes for the site.
 
-<details>
-<summary>Newsletter form:
-</summary>
-
-![Newsletter](/assets/images/newsletter.png)
-</details>
+    ![Story](/assets/readme/story.png)
 
 * Section two, 'Newsletter'
     * A sign-up form for the monthly email bulletin that Kerry sends to subscribers.
-    * Button to submit the form.
+    * Button to submit the form.   
 
-<details>
-<summary>Find out more:
-</summary>
-
-![More](/assets/images/extras.png)
-</details>
+    ![Newsletter](/assets/readme/newsletter.png)
 
 * Section three, 'Find out more'
     * Links to useful Stampin' Up! resources - such as the shop and catalogues.
-    * Link to information about joining Kerry's team.
+    * Link to information about joining Kerry's team.   
 
-<details>
-<summary>Monthly card workshops:
-</summary>
-
-![Workshop](/assets/images/workshops.png)
-</details>
+    ![More](/assets/readme/extras.png)
 
 * Section four, 'Monthly card workshop'
     * Information regarding the workshops, what to expect and the cost.
-    * iframes Google map showing the location of the workshop.
+    * iframes Google map showing the location of the workshop.   
 
-<details>
-<summary>Footer:
-</summary>
-
-![Footer](/assets/images/footer.png)
-</details>
+    ![Workshop](/assets/readme/workshops.png)
 
 * Footer
     * Links to the social media for Creative Crafts with Kel will open in a new tab to allow easy navigation for the user.
     * It is valuable to the user as it gives them an easy contact option via social media.
-    * Hold copyright information about the author. 
+    * Hold copyright information about the author.    
 
-<details>
-<summary>Gallery headers:
-</summary>
+    ![Footer](/assets/readme/footer.png)
 
-![Gallery](/assets/images/gallery.png)     ![Gallery](/assets/images/gallery2.png)     ![Gallery](/assets/images/gallery3.png)
-</details>
-
-* Gallery 
-    * The gallery will provide the user with supporting images to see events, workshops and examples of Kerry's work.
+* Gallery - Onstage section
+    * The gallery provides the user with supporting images to the _Stampin' Up! Onstage_ event.
     * This section is valuable to the user as they will see our previous events and workshops - providing an insight into the activities undertaken.
 
-<details>
-<summary>Catalogue sections:
-</summary>
+    ![Gallery](/assets/readme/gallery.png)
 
-![Physical](/assets/images/catalogue.png)    ![Digital](/assets/images/catalogues.png)
-</details>
+* Gallery - Workshops section
+    * The gallery provides the user with supporting images to the various workshops we hold.
+    * This section is valuable to the user as they will see our previous events and workshops - providing an insight into the activities undertaken.
 
-* The Request a catalogue page
+    ![Gallery](/assets/readme/gallery2.png)
+
+* Gallery - Examples of work section
+    * The gallery provides the user with supporting images to see examples of Kerry's work.
+    * This section is valuable to the user as they will see our previous events and workshops - providing an insight into the activities undertaken.
+
+    ![Gallery](/assets/readme/gallery3.png)
+
+* The Request a catalogue page - Form submission
     * This page will allow users to sign up to receive a free copy of the Stampin' Up! catalogues.
-    * Provides a link to be able to view the catalogues online - in a range of languages.
     * Due to seasonal rotation, the catalogues will update regularly. 
 
-<details>
-<summary>Thank you:
-</summary>
+    ![Physical](/assets/readme/catalogue.png)
 
-![Form received](assets/images/form-submit.png)    ![Form received](/assets/images/thank-you.png)
-</details>
+* The Request a catalogue page - Digital catalogues
+    * Provides a link to be able to view the catalogues online - in a range of languages.
+    * Due to seasonal rotation, the catalogues will update regularly.
+
+    ![Digital](/assets/readme/catalogues.png)
 
 * The Thank you page
     * Form received and acknowledged
+    * Created a custom _thank you_ page after testing the form submission
+
+    ![Form received](/assets/readme/thank-you.png)
 
 ---
 
@@ -272,42 +223,42 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>index.html
 </summary>
 
-![Home Page validation result](/assets/images/validation-html.png)
+![Home Page validation result](/assets/readme/validation-html.png)
 </details>
 
 <details>
 <summary>gallery.html
 </summary>
 
-![Home Page validation result](/assets/images/validation-html.png)
+![Home Page validation result](/assets/readme/validation-html.png)
 </details>
 
 <details>
 <summary>crew.html
 </summary>
 
-![Home Page validation result](/assets/images/validation-html.png)
+![Home Page validation result](/assets/readme/validation-html.png)
 </details>
 
 <details>
 <summary>catalogue.html
 </summary>
 
-![Home Page validation result](/assets/images/validation-html.png)
+![Home Page validation result](/assets/readme/validation-html.png)
 </details>
 
 <details>
 <summary>thank-you.html
 </summary>
 
-![Home Page validation result](/assets/images/validation-html.png)
+![Home Page validation result](/assets/readme/validation-html.png)
 </details>
 
 <details>
 <summary>style.css
 </summary>
 
-![Home Page validation result](/assets/images/validation-css.png)
+![Home Page validation result](/assets/readme/validation-css.png)
 </details>
 
 ### Manual Testing
@@ -326,35 +277,35 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Home page (index.html)
 </summary>
 
-![Home Page PageSpeed result](/assets/images/lh-mob-index.png)
+![Home Page PageSpeed result](/assets/readme/lh-mob-index.png)
 </details>
 
 <details>
 <summary>Gallery page (gallery.html)
 </summary>
 
-![Gallery Page PageSpeed result](/assets/images/lh-mob-gallery.png)
+![Gallery Page PageSpeed result](/assets/readme/lh-mob-gallery.png)
 </details>
 
 <details>
 <summary>Crafty Crew page (crew.html)
 </summary>
 
-![Crafty Crew Page PageSpeed result](/assets/images/lh-mob-crew.png)
+![Crafty Crew Page PageSpeed result](/assets/readme/lh-mob-crew.png)
 </details>
 
 <details>
 <summary>Request a catalogue page (catalogue.html)
 </summary>
 
-![Catalogue Page PageSpeed result](/assets/images/lh-mob-catalogue.png)
+![Catalogue Page PageSpeed result](/assets/readme/lh-mob-catalogue.png)
 </details>
 
 <details>
 <summary>Thank you page (thank-you.html)
 </summary>
 
-![Gallery Page PageSpeed result](/assets/images/lh-mob-thanks.png)
+![Gallery Page PageSpeed result](/assets/readme/lh-mob-thanks.png)
 </details>
 
 #### Desktop analysis
@@ -363,33 +314,98 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Home page (index.html)
 </summary>
 
-![Home Page PageSpeed result](/assets/images/lh-desk-index.png)
+![Home Page PageSpeed result](/assets/readme/lh-desk-index.png)
 </details>
 
 <details>
 <summary>Gallery page (gallery.html)
 </summary>
 
-![Gallery Page PageSpeed result](/assets/images/lh-desk-gallery.png)
+![Gallery Page PageSpeed result](/assets/readme/lh-desk-gallery.png)
 </details>
 
 <details>
 <summary>Crafty Crew page (crew.html)
 </summary>
 
-![Crafty Crew Page PageSpeed result](/assets/images/lh-desk-crew.png)
+![Crafty Crew Page PageSpeed result](/assets/readme/lh-desk-crew.png)
 </details>
 
 <details>
 <summary>Request a catalogue page (catalogue.html)
 </summary>
 
-![Catalogue Page PageSpeed result](/assets/images/lh-desk-catalogue.png)
+![Catalogue Page PageSpeed result](/assets/readme/lh-desk-catalogue.png)
 </details>
 
 <details>
 <summary>Thank you page (thank-you.html)
 </summary>
 
-![Gallery Page PageSpeed result](/assets/images/lh-desk-thanks.png)
+![Gallery Page PageSpeed result](/assets/readme/lh-desk-thanks.png)
 </details>
+
+### Form submission testing
+
+<details>
+<summary>Form submission test</summary>
+
+![Form received](assets/readme/form-submit.png)
+</details>
+
+---
+
+## Deployment and local development
+
+### GitHub Pages
+
+GitHub Pages used to deploy live version of the website.
+1. Log in to GitHub and locate [GitHub Repository Creative Crafts with Kel](https://github.com/HobbesUnleashed/creative-crafts-with-kel)
+2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
+3. Scroll down the Settings page until you locate "GitHub Pages".
+4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
+5. The page will automatically refresh.
+6. Scroll back to locate the now-published site [link](https://hobbesunleashed.github.io/creative-crafts-with-kel/index.html) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
+
+1. Log in to GitHub and locate [GitHub Repository Creative Crafts with Kel](https://github.com/HobbesUnleashed/creative-crafts-with-kel)
+2. At the top of the Repository(under the main navigation) locate "Fork" button.
+3. Now you should have a copy of the original repository in your GitHub account.
+
+### Local Clone
+
+1. Log in to GitHub and locate [GitHub Repository Creative Crafts with Kel](https://github.com/HobbesUnleashed/creative-crafts-with-kel)
+2. Under the repository name click "Clone or download"
+3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone` and then paste The URL copied in the step 3.
+7. Press Enter and your local clone will be created.
+
+---
+
+## Credits
+
+### Code
+ * Understanding the concept of flexbox was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+ * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+### Content
+
+ * All content was written by the developer.
+ * [Color contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5) was used to decide which colors would be used for the website.
+
+### Media 
+
+ * [Pexels](https://www.pexels.com/) free stock photos, royalty free images.
+ * [Pixabay](https://pixabay.com/) free stock photos, royalty free images.
+ * [Pixlr](https://pixlr.com/) Resizing images.
+---
+
+## Acknowledgements
+
+ * My mentor Mitko Bachvarov provided helpful feedback and a link to the Flexbox guide.
+ * Slack community for encouragement and information.
